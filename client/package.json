@@ -2,7 +2,7 @@
   "name": "client-v",
   "private": true,
   "version": "0.0.0",
-  "homepage": "/home/lemur/SmartImage/client",
+  "homepage": "172.105.22.223/home/lemur/SmartImage/client",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
