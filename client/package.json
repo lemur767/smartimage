@@ -1,9 +1,8 @@
 {
   "name": "client-v",
-  "private": true,
+  "homepage": ".",
   "version": "0.0.0",
-  "homepage": "172.105.22.223/home/lemur/SmartImage/client",
-  "scripts": {
+    "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
