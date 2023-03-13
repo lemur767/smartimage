@@ -5,6 +5,13 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <AuthProvider
+      authType={"cookie"}
+      authName={"_auth"}
+      cookieDomain={window.location.hostname}
+      cookieSecure={false}
+      >
+      <App />
+    </AuthProvider>
   </React.StrictMode>,
 )
