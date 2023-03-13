@@ -26,7 +26,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('api/v1/post', {
+      const response = await fetch('http://172.105.22.223:8080/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
