@@ -1,0 +1,229 @@
+/* Desktop - 1 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 36px 0px 0px;
+gap: 24px;
+
+position: relative;
+width: 1440px;
+height: 2883px;
+
+background: #524F4F;
+/* Top_Container */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 32px;
+
+width: 1369px;
+height: 264px;
+
+/* Azure */
+
+background: rgba(58, 134, 255, 0.25);
+opacity: 0.85;
+border: 1.8px solid rgba(255, 255, 255, 0.35);
+box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.62);
+backdrop-filter: blur(75px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 40px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+/* Frame 6 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 44px 0px 79px;
+gap: 70px;
+
+width: 1440px;
+height: 704px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+/* Frame 5 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px 0px;
+gap: 16px;
+
+width: 672px;
+height: 338px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+/* Frame 7 */
+
+
+width: 512px;
+height: 526px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+/* Frame 11 */
+/* Vector image and Text*/
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 86px 0px 44px;
+gap: 58px;
+
+width: 728.33px;
+height: 459px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FORM */
+
+position: absolute;
+width: 109px;
+height: 20px;
+left: 45px;
+top: 14.73px;
+
+font-family: 'Seymour One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: rgba(0, 0, 0, 0.35);
+
+
+
+
+
+
+    /* Primary: Midas Touch */
+    --primary-100: #FFFEF2;
+    --primary-200: #FFF9C9;
+    --primary-300: #FCED9F;
+    --primary-400: #F6D974;
+    --primary-500: #EBBD49;
+    --primary-600: #BA8624;
+    --primary-700: #885912;
+    --primary-800: #57340A;
+    --primary-900: #261504;
+
+    /* Accent: Magento */
+    --accent-100: #FEF2FF;
+    --accent-200: #F9C6FF;
+    --accent-300: #ED98FE;
+    --accent-400: #DA6BFB;
+    --accent-500: #C13DF5;
+    --accent-600: #881AC1;
+    --accent-700: #590B8E;
+    --accent-800: #33055A;
+    --accent-900: #130226;
+
+    /* Neutral */
+    --neutral-100: #FBFCFA;
+    --neutral-200: #E9EBE7;
+    --neutral-300: #D7D9D4;
+    --neutral-400: #C6C7C2;
+    --neutral-500: #B4B5B0;
+    --neutral-600: #90918A;
+    --neutral-700: #6D6E67;
+    --neutral-800: #4A4A44;
+    --neutral-900: #262622;
+    
+
+
+    /* CSS HEX */
+--amber: #ffbe0bff;
+--orange-pantone: #fb5607ff;
+--rose: #ff006eff;
+--blue-violet: #8338ecff;
+--azure: #3a86ffff;
+
+/* CSS HSL */
+--amber: hsla(44, 100%, 52%, 1);
+--orange-pantone: hsla(19, 97%, 51%, 1);
+--rose: hsla(334, 100%, 50%, 1);
+--blue-violet: hsla(265, 83%, 57%, 1);
+--azure: hsla(217, 100%, 61%, 1);
+
+/* SCSS HEX */
+$amber: #ffbe0bff;
+$orange-pantone: #fb5607ff;
+$rose: #ff006eff;
+$blue-violet: #8338ecff;
+$azure: #3a86ffff;
+
+/* SCSS HSL */
+$amber: hsla(44, 100%, 52%, 1);
+$orange-pantone: hsla(19, 97%, 51%, 1);
+$rose: hsla(334, 100%, 50%, 1);
+$blue-violet: hsla(265, 83%, 57%, 1);
+$azure: hsla(217, 100%, 61%, 1);
+
+/* SCSS RGB */
+$amber: rgba(255, 190, 11, 1);
+$orange-pantone: rgba(251, 86, 7, 1);
+$rose: rgba(255, 0, 110, 1);
+$blue-violet: rgba(131, 56, 236, 1);
+$azure: rgba(58, 134, 255, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-right: linear-gradient(90deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-bottom: linear-gradient(180deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-left: linear-gradient(270deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-top-right: linear-gradient(45deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-bottom-right: linear-gradient(135deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-top-left: linear-gradient(225deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-bottom-left: linear-gradient(315deg, #ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);
+$gradient-radial: radial-gradient(#ffbe0bff, #fb5607ff, #ff006eff, #8338ecff, #3a86ffff);

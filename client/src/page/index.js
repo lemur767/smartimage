@@ -1,10 +1,14 @@
-import Home from './Home';
+import Profile from './Profile';
 import CreatePost from './CreatePost';
+import Register from './Register';
 import Login from './Login';
 
 
+
+
 export {
-  Home,
+  Profile,
   CreatePost,
+  Register,
   Login,
 };
